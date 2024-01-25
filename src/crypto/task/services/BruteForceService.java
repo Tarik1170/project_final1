@@ -3,7 +3,7 @@ package crypto.task.services;
 import crypto.task.alphabet.TextTransition;
 
 public class BruteForceService {
-    private TextTransition textTransition;
+    private final TextTransition textTransition;
 
     public BruteForceService(TextTransition textTransition) {
         this.textTransition = textTransition;

@@ -5,8 +5,8 @@ import crypto.task.alphabet.TextTransition;
 import java.io.IOException;
 
 public class Encrypt {
-    private TextTransition textTransition;
-    private int key;
+    private final TextTransition textTransition;
+    private final int key;
 
     public Encrypt(TextTransition textTransition, int key) {
         this.textTransition = textTransition;
