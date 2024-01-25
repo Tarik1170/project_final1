@@ -1,6 +1,5 @@
 package crypto.task.alphabet;
 
-import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.nio.file.Files;
@@ -15,10 +14,6 @@ public class TextTransition {
 
     public String encrypt(int key) {
         return processText(key);
-    }
-
-    public String decrypt(int key) {
-        return processText(26 - key);
     }
 
     private String processText(int key) {
