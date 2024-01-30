@@ -5,3 +5,4 @@ public enum Mode {
     DECRYPT,
     BRUTE_FORCE
 }
+
