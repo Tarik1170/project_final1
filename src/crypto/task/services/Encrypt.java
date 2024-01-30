@@ -19,4 +19,3 @@ public class Encrypt {
         System.out.println("Encryption successful!");
     }
 }
-//
